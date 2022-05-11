@@ -13,7 +13,7 @@ int n;                              // quantidade de pessoas/bicicletas.
 int l,c;                            // numero de linhas e colunas do mapa da lagoa.
 vector<vector<char>> mapa;          // mapa da lagoa.
 vector<queue<int>> visit_to_bikes;  // posicao i indica a fila de bicicletas pra quem o visitante i vai pedir, em ordem (primeira da fila eh a primeira bicicleta que ele vai tentar parear).
-vector<vector<int>> bike_to_ranks;  // posicao i,j indica a posicao do visitante i no rank da bicicleta j, sendo que o visitante preferido da bicicleta j tem rank 0.
+vector<vector<int>> bike_to_ranks;  // posicao i, j indica a posicao do visitante i no rank da bicicleta j, sendo que o visitante preferido da bicicleta j tem rank 0.
 vector<int> bykepair;               // posicao i eh com quem a bicicleta i esta pareada, -1 se nao esta pareada com ninguem
 
 // verifica se eh valido andar pra posicao i,j
